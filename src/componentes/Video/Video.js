@@ -9,11 +9,11 @@ const Video = () => {
       muted
       style={{
         width: '100%',
-        height: '50rem',
+        height: '30rem',
         position: 'absolute',
-        left: '50%',
+        // left: '50%',
         objectFit: 'cover',
-        transform: 'translate(-50%,-50%)',
+        // transform: 'translate(-10%,-10%)',
         zIndex: '-1',
       }}
     >
