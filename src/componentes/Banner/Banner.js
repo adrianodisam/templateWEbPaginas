@@ -14,7 +14,7 @@ const Banner = (props) => {
       <Texto
         texto="Somos especialistas em Direito Criminal."
         tamanho="1.8rem"
-        cor="#ffc1c1"
+        cor="#555"
       />
     </div>
   );

@@ -1,8 +1,10 @@
 .Container {
   display: flex;
   justify-content: center;
-  width: 50%;
-  height: 8rem;
+  flex-direction: column;
+  align-items: center;
+  width: 25rem;
+  height: 13rem;
   border: solid 0.1rem var(--textColor);
   margin: 0.4rem;
   color: black;

@@ -1,12 +1,12 @@
 import React from 'react';
-import SvgFamilia from '../SvgFamilia/SvgFamilia';
+import SvgBalanca from '../SvgBalanca/SvgBalanca';
 import TextoCard from '../TextoCard/TextoCard';
 import Styles from './Card.module.css';
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className={Styles.Container}>
-      <SvgFamilia />
+      <SvgBalanca />
       <TextoCard />
     </div>
   );

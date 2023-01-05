@@ -11,10 +11,9 @@ const Video = () => {
         width: '100%',
         height: '30rem',
         position: 'absolute',
-        // left: '50%',
         objectFit: 'cover',
-        // transform: 'translate(-10%,-10%)',
         zIndex: '-1',
+        backgroundImage: 'linear-gradient(to right, #4880EC, #019CAD)',
       }}
     >
       <source src={tape} type="video/mp4" />

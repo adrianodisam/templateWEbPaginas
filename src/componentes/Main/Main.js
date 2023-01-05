@@ -9,8 +9,9 @@ const Main = () => {
   return (
     <div className={Styles.Container}>
       <Sobre />
-      <Especialidades />
+
       <Banner imagem={imagem} />
+      <Especialidades />
     </div>
   );
 };

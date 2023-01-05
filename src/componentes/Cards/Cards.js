@@ -5,7 +5,7 @@ import Styles from './Cards.module.css';
 const Cards = () => {
   return (
     <div className={Styles.Container}>
-      <Card />
+      <Card texto="Assistência às questões de natureza societária, na elaboração e planejamento dos mais diferentes contratos comerciais." />
       <Card />
     </div>
   );

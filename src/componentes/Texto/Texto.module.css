@@ -3,10 +3,11 @@
   height: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .Container h2 {
   font-family: 'Menu1';
+  text-shadow: 0 0 0.1em #ffc1c1, 0 0 0.1em #ffc1c1, 0 0 0.1em #ffc1c1;
 }
 
 @media (max-width: 900px) {

@@ -12,8 +12,9 @@ const Header = () => {
         texto="Nossa história nos inspira a contribuir para o direito do
         futuro."
         tamanho="1.8rem"
-        cor="#ffc1c1"
+        cor="#555"
       />
+
       <Button nome="Como podemos ajudar ?" />
     </div>
   );
