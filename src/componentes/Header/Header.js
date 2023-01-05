@@ -15,7 +15,7 @@ const Header = () => {
         cor="#555"
       />
 
-      <Button nome="Como podemos ajudar ?" />
+      <Button nome="Como podemos ajudar ?" cor="#555" />
     </div>
   );
 };

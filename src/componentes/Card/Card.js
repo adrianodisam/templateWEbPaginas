@@ -1,13 +1,13 @@
 import React from 'react';
 import SvgBalanca from '../SvgBalanca/SvgBalanca';
-import TextoCard from '../TextoCard/TextoCard';
 import Styles from './Card.module.css';
 
 const Card = (props) => {
   return (
     <div className={Styles.Container}>
       <SvgBalanca />
-      <TextoCard />
+      <h3>{props.titulo}</h3>
+      <h4>{props.texto}</h4>
     </div>
   );
 };

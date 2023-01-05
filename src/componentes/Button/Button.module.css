@@ -14,7 +14,7 @@
   height: 3rem;
   color: var(--textColor);
   border: solid 1px var(--textColor);
-  border-radius: 0.3rem;
+  border-radius: 0.7rem;
 }
 .Container div:hover {
   background-color: #555;
