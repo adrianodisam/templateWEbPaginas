@@ -3,8 +3,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 25rem;
-  height: 13rem;
+
+  height: 15rem;
   border: solid 0.1rem var(--textColor);
   margin: 0.4rem;
   border-radius: 1rem;
@@ -33,8 +33,8 @@
 
 @media only screen and (max-width: 1024px) {
   .Container {
-    width: 17rem;
-    height: 12rem;
+    width: 18rem;
+    height: 18rem;
     flex-direction: column;
   }
 }

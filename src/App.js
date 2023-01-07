@@ -4,6 +4,7 @@ import Header from './componentes/Header/Header';
 import Main from './componentes/Main/Main';
 import Navbar from './componentes/Navbar/Navbar';
 import WhatsAppContato from './componentes/WhatsAppContato/WhatsAppContato';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
