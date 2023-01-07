@@ -8,13 +8,13 @@ const Banner = (props) => {
       className={Styles.Container}
       style={{
         background: `linear-gradient( #1A1A1A, Transparent 100% , rgba(0, 0, 0, 0)100%), url(${props.imagem})`,
+        backgroundAttachment: 'fixed',
       }}
     >
-      <h3>CAPACITAÇÃO E EXPERIÊNCIA</h3>
       <Texto
-        texto="Somos especialistas em Direito Criminal."
+        texto="Somos especialistas em Direito do Trabalho."
         tamanho="1.8rem"
-        cor="#555"
+        cor="#eee"
       />
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import RedeSociais from '../RedeSociais/RedeSociais';
 import TextoRoda from '../TextoRoda/TextoRoda';
 import Styles from './Footer.module.css';
 

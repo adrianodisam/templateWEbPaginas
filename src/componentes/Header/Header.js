@@ -1,8 +1,8 @@
 import React from 'react';
 import Styles from './Header.module.css';
 import Video from '../Video/Video';
-import Button from '../Button/Button';
 import Texto from '../Texto/Texto';
+import RedeSociais from '../RedeSociais/RedeSociais';
 
 const Header = () => {
   return (
@@ -12,10 +12,9 @@ const Header = () => {
         texto="Nossa história nos inspira a contribuir para o direito do
         futuro."
         tamanho="1.8rem"
-        cor="#555"
+        cor="#eee"
       />
-
-      <Button nome="Como podemos ajudar ?" cor="#555" />
+      <RedeSociais posicao="right" />
     </div>
   );
 };

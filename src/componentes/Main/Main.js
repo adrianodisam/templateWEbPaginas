@@ -8,10 +8,9 @@ import imagem from '../Banner/0f13adda42c0d821eeee8c4b36d871be.jpeg';
 const Main = () => {
   return (
     <div className={Styles.Container}>
-      <Sobre />
-
-      <Banner imagem={imagem} />
       <Especialidades />
+      <Banner imagem={imagem} />
+      <Sobre />
     </div>
   );
 };
