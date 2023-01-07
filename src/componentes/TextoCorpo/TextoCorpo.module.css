@@ -8,6 +8,7 @@
   border-radius: 1rem;
 }
 .Container h2 {
+  display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 1.3rem;
@@ -20,5 +21,6 @@
     width: 100%;
     height: 12rem;
     flex-direction: column;
+    margin-top: 2rem;
   }
 }

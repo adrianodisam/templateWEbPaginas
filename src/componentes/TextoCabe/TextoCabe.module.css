@@ -7,5 +7,6 @@
   padding: 2rem;
 }
 .Container h1 {
+  margin-top: 2rem;
   color: var(--mainColor);
 }
