@@ -2,9 +2,7 @@ import React from 'react';
 import Styles from './Formulario.module.css';
 import emailjs from '@emailjs/browser';
 import Enviado from '../Enviado/Enviado';
-import dotenv from 'dotenv';
 
-dotenv.config();
 const Formulario = () => {
   const [name, setName] = React.useState('');
   const [email, setEmail] = React.useState('');
@@ -12,7 +10,6 @@ const Formulario = () => {
   const [status, setStatus] = React.useState('true');
 
   const onSubmit = async (event) => {
-    debugger;
     event.preventDefault();
     if ((name === '') | (email === '') | (mensagem === '')) {
       alert('Preencha todos os campos');
@@ -26,10 +23,10 @@ const Formulario = () => {
 
     emailjs
       .send(
-        process.env.SERVICE_EMAIL,
-        process.env.TEMPLATE_EMAIL,
+        'service_gq3kkr4',
+        'template_x3u24e6',
         templatParams,
-        process.env.API_CHAVE_KEY,
+        'QlVUl2MGU8m66qclo',
       )
       .then(
         (response) => {
@@ -44,14 +41,14 @@ const Formulario = () => {
         },
       );
   };
-  console.log(process.env.SERVICE_EMAIL);
+  console.log(window.env.REACT_APP_SERVICE_EMAIL);
   return (
     <div className={Styles.Container}>
       {status ? (
         <form onSubmit={onSubmit} noValidate>
           <lord-icon
             src="https://cdn.lordicon.com/tkgyrmwc.json"
-            trigger="hover"
+            trigger="loop"
             style={{ width: '70px', height: '70px' }}
           ></lord-icon>
           <div className="form-group mb-2">
