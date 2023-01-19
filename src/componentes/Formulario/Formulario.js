@@ -85,18 +85,19 @@ const Formulario = () => {
               <strong>Mensagem</strong>
             </label>
             <textarea
-              type="text"
               name="mensagem"
               value={mensagem}
-              className="form-control"
               onChange={(event) => {
                 setMensagem(event.target.value);
               }}
-            />
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
           </div>
           <div>
             <button type="submit" className="btn btn-primary">
-              Create
+              Enviar
             </button>
           </div>
         </form>
