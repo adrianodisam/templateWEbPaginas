@@ -1,11 +1,23 @@
 import React from 'react';
 import Card from '../Card/Card';
 import Styles from './Cards.module.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 const Cards = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <div className={Styles.Container}>
       <Card
+        data-aos="bottom-top"
         titulo="Direito Empresarial"
         texto="Assistência às questões de natureza societária, na elaboração e planejamento dos mais diferentes contratos comerciais."
         icone={
@@ -17,6 +29,7 @@ const Cards = () => {
         }
       />
       <Card
+        data-aos="fade-right"
         titulo="Direito Administrativo"
         texto="Assessoria e consultoria jurídica para empresas e entidades privadas licitantes, organizando os documentos necessários."
         icone={
@@ -28,6 +41,7 @@ const Cards = () => {
         }
       />
       <Card
+        data-aos="fade-left"
         titulo="Direito do Trabalho"
         texto="Atendimento consultivo de toda a legislação trabalhista, representando os clientes em suas procuradorias."
         icone={

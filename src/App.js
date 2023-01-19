@@ -6,6 +6,8 @@ import Navbar from './componentes/Navbar/Navbar';
 import WhatsAppContato from './componentes/WhatsAppContato/WhatsAppContato';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import 'aos/dist/aos.css';
+
 function App() {
   return (
     <div className="App">
