@@ -17,7 +17,7 @@ const Cards = () => {
   return (
     <div className={Styles.Container}>
       <Card
-        data-aos="bottom-top"
+        anima="fade-right"
         titulo="Direito Empresarial"
         texto="Assistência às questões de natureza societária, na elaboração e planejamento dos mais diferentes contratos comerciais."
         icone={
@@ -29,7 +29,7 @@ const Cards = () => {
         }
       />
       <Card
-        data-aos="fade-right"
+        anima="fade-down"
         titulo="Direito Administrativo"
         texto="Assessoria e consultoria jurídica para empresas e entidades privadas licitantes, organizando os documentos necessários."
         icone={
@@ -41,7 +41,7 @@ const Cards = () => {
         }
       />
       <Card
-        data-aos="fade-left"
+        anima="fade-left"
         titulo="Direito do Trabalho"
         texto="Atendimento consultivo de toda a legislação trabalhista, representando os clientes em suas procuradorias."
         icone={
