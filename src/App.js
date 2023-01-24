@@ -14,7 +14,7 @@ function App() {
       <WhatsAppContato texto="Agendar horário" />
       <Navbar />
       <Header />
-      <Main />
+      {/* <Main />  */}
       <Footer />
     </div>
   );
