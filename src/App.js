@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 function App() {
   return (
     <div className="App">
-      <WhatsAppContato />
+      <WhatsAppContato texto="Agendar horário" />
       <Navbar />
       <Header />
       <Main />
