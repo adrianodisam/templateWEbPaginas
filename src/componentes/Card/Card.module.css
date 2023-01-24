@@ -32,8 +32,8 @@
 
 @media only screen and (max-width: 1024px) {
   .Container {
-    width: 18rem;
-    height: 18rem;
+    width: 10rem;
+    height: 10rem;
     flex-direction: column;
   }
 }
