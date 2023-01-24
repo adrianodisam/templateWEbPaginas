@@ -6,7 +6,7 @@ const WhatsAppContato = (props) => {
   return (
     <div className={Styles.container}>
       <span className={Styles.containerSpan}>
-        <a href="#home">
+        <a href={props.link} target="blank">
           <img src={imagem} alt="Logo whatsapp" />
           <span>{props.texto}</span>
         </a>

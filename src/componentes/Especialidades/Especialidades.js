@@ -17,6 +17,7 @@ const Especialidades = () => {
         corFonte="#eee"
         svg={<SvgSeta />}
         largura="1rem"
+        link="https://wa.me/5511984835370?text=Ol%C3%A1%21+Estou+no+site+e+gostaria+de+agendar+uma+consulta"
       />
 
       <Cards />
