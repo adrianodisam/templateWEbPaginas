@@ -6,6 +6,7 @@
   position: fixed;
   justify-content: right;
   align-items: flex-end;
+  background-color: #23a455;
 }
 .containerSpan {
   display: flex;
