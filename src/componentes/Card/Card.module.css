@@ -33,6 +33,7 @@
 @media only screen and (max-width: 1024px) {
   .Container {
     flex-direction: column;
+    width: 80%;
   }
   .Container h4 {
     font-family: 'Menu1';
