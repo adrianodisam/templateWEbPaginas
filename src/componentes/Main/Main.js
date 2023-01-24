@@ -9,7 +9,7 @@ import Contato from '../Contato/Contato';
 const Main = () => {
   return (
     <div className={Styles.Container}>
-      {/* <Especialidades /> */}
+      <Especialidades />
       <Banner imagem={imagem} />
       <Sobre />
       <Contato />
