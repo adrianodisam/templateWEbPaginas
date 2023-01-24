@@ -14,5 +14,6 @@
     flex-direction: column;
     margin-bottom: 1rem;
     padding: 0.1rem;
+    width: 90%;
   }
 }
