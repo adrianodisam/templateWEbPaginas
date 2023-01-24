@@ -4,13 +4,16 @@
   box-sizing: border-box;
   justify-content: center;
   width: 100%;
-  /* padding: 2rem;
-  margin-bottom: 7rem; */
+  padding: 2rem;
+  margin-bottom: 7rem;
 }
 
 @media only screen and (max-width: 1024px) {
   .Container {
     display: flex;
     flex-direction: column;
+    /* background-color: black;
+    padding: 12rem;
+    margin-bottom: 7rem; */
   }
 }

@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 1024px) {
   .Container {
-    width: 14rem;
+    width: 18rem;
     height: 18rem;
     flex-direction: column;
   }
