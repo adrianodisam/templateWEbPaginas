@@ -3,10 +3,16 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../Logo/Logo';
 import '../Navbar/Navbar.css';
 import imagem from '../Logo/cc.png';
+import { Link } from 'react-scroll';
 
 function Navbar() {
   const navRef = useRef();
-  const titulos = ['Home', 'Especialidades', 'O Escritório', 'Contato'];
+  const titulos = [
+    { nome: 'Home', id: 'Home' },
+    { nome: 'Especialidades', id: 'Especialidades' },
+    { nome: 'O Escritório', id: 'Sobre' },
+    { nome: 'Contato', id: 'Contato' },
+  ];
 
   const showNavbar = () => {
     navRef.current.classList.toggle('responsive_nav');
@@ -18,8 +24,19 @@ function Navbar() {
 
       <nav ref={navRef}>
         {titulos.map((titulo) => (
-          <a href="/#">{titulo}</a>
+          // <a href="/#">{titulo}</a>
+          <Link
+            activeClass="active"
+            to={titulo.id}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={100}
+          >
+            {titulo.nome}
+          </Link>
         ))}
+        {/* Sobre */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

@@ -8,7 +8,7 @@ const Contato = (props) => {
   return (
     <div className={Styles.Container}>
       <TextoCabe texto="Contato" />
-      <div className={Styles.ContainerContato}>
+      <div className={Styles.ContainerContato} id="Contato">
         <Formulario />
         <CardContato />
       </div>

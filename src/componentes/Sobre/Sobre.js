@@ -7,7 +7,7 @@ import imagem from '../CardProfissional/pexels-mikhail-nilov-8730758.png';
 
 const Sobre = () => {
   return (
-    <div className={Styles.Container}>
+    <div className={Styles.Container} id="Sobre">
       <TextoCabe texto="Sobre nós" />
       <div className={Styles.ContainerProfissional}>
         <CardProfissional

@@ -5,7 +5,6 @@ import Main from './componentes/Main/Main';
 import Navbar from './componentes/Navbar/Navbar';
 import WhatsAppContato from './componentes/WhatsAppContato/WhatsAppContato';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import 'aos/dist/aos.css';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
     <div className="App">
       <WhatsAppContato
         texto="Agendar horário"
-        link="https://wa.me/5511984835370?text=Ol%C3%A1%21+Estou+no+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es"
+        link="https://wa.me/5511984835370?text=Ol%C3%A1%21+Estou+no+site+e+gostaria+de+agendar+um+horário"
       />
       <Navbar />
       <Header />
@@ -22,5 +21,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

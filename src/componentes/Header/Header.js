@@ -6,7 +6,7 @@ import RedeSociais from '../RedeSociais/RedeSociais';
 
 const Header = () => {
   return (
-    <div className={Styles.Container}>
+    <div className={Styles.Container} id="Home">
       <Video />
       <Texto
         texto="Nossa história nos inspira a contribuir para o direito do
