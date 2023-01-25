@@ -31,8 +31,13 @@ const CardContato = () => {
         ))}
         {whats.map((whatsapp) => (
           <li>
-            <img src={imagem} alt="Logo whatsapp" />
-            {whatsapp}
+            <a
+              href="https://wa.me/5511984835370?text=Ol%C3%A1%21+Estou+no+site+e+gostaria+de+agendar+um+horário"
+              target="blank"
+            >
+              <img src={imagem} alt="Logo whatsapp" />
+              {whatsapp}
+            </a>
           </li>
         ))}
       </ul>
