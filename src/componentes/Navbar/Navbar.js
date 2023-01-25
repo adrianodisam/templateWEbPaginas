@@ -32,6 +32,7 @@ function Navbar() {
             smooth={true}
             offset={-70}
             duration={100}
+            onClick={showNavbar}
           >
             {titulo.nome}
           </Link>
