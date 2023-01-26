@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import SvgInstagram from '../SvgInstagram/SvgInstagram';
 import SvgLinkedin from '../SvgLinkedin/SvgLinkedin';
 import Styles from './RedeSociais.module.css';

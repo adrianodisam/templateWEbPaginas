@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import Enviado from '../Enviado/Enviado';
 
 const Formulario = () => {
+  debugger;
   const [name, setName] = React.useState('');
   const [email, setEmail] = React.useState('');
   const [mensagem, setMensagem] = React.useState('');
@@ -21,9 +22,16 @@ const Formulario = () => {
       email: email,
     };
 
+    // emailjs
+    //   .send(
+    //     'service_gq3kkr4',
+    //     'template_x3u24e6',
+    //     templatParams,
+    //     'QlVUl2MGU8m66qclo',
+    //   )
     emailjs
       .send(
-        'service_gq3kkr4',
+        `${process.env.SERVICE_EMAIL}`,
         'template_x3u24e6',
         templatParams,
         'QlVUl2MGU8m66qclo',
@@ -41,7 +49,7 @@ const Formulario = () => {
         },
       );
   };
-  console.log(window.env.REACT_APP_SERVICE_EMAIL);
+
   return (
     <div className={Styles.Container}>
       {status ? (
@@ -104,6 +112,7 @@ const Formulario = () => {
       ) : (
         <Enviado />
       )}
+      <h3>{process.env.REACT_APP_EXEMPLO}</h3>
     </div>
   );
 };
