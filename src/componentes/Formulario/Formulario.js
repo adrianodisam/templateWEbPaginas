@@ -31,7 +31,7 @@ const Formulario = () => {
     //   )
     emailjs
       .send(
-        `${process.env.SERVICE_EMAIL}`,
+        `${process.env.REACT_APP_NOME_DA_VARIAVEL_SERVICE_EMAIL}`,
         'template_x3u24e6',
         templatParams,
         'QlVUl2MGU8m66qclo',
