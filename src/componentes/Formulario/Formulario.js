@@ -22,16 +22,9 @@ const Formulario = () => {
       email: email,
     };
 
-    // emailjs
-    //   .send(
-    //     'service_gq3kkr4',
-    //     'template_x3u24e6',
-    //     templatParams,
-    //     'QlVUl2MGU8m66qclo',
-    //   )
     emailjs
       .send(
-        `${process.env.REACT_APP_NOME_DA_VARIAVEL_SERVICE_EMAIL}`,
+        'service_gq3kkr4',
         'template_x3u24e6',
         templatParams,
         'QlVUl2MGU8m66qclo',
